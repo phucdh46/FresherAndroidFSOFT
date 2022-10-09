@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ContentProviderServerDay10</string>
+    <string name="heading">Heading</string>
+    <string name="hintText">hintName</string>
+    <string name="insertButtontext">Insert</string>
+    <string name="loadButtonText">Load</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Customername">Customer Name</string>
+    <string name="TimeStamp">Timestamp</string>
+    <string name="Value">Value</string>
+    <string name="title_home">Server Orders</string>
+    <string name="title_update">Update Order</string>
+    <string name="title_add">Add Order</string>
+    <string name="value">Value: </string>
+</resources>

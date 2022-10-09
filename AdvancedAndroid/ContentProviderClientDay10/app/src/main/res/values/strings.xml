@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ContentProviderClientDay10</string>
+    <string name="totalValue">Total value:</string>
+    <string name="mostValuableCustomer">VIP customer:</string>
+</resources>

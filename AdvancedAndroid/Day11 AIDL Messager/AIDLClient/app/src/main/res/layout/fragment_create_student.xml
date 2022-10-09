@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CreateStudentFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name" />
+
+        <EditText
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtMathScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="math score"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtPhysicScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="physic score"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtEnglishScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="english score"
+            android:inputType="number" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ScreenMode">
+        <item>Adaptive display</item>
+        <item>AMOLED cinema</item>
+        <item>AMOLED photo</item>
+        <item>Basic</item>
+    </string-array>
+    <string-array name="screen_zoom_and_font">
+        <item>Lager</item>
+        <item>Medium</item>
+        <item>Small</item>
+        <item>Default</item>
+    </string-array>
+</resources>

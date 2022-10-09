@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeStudentFragment">
+
+    <fragment
+        android:id="@+id/homeStudentFragment"
+        android:name="com.example.aidlclient.fragment.HomeStudentFragment"
+        android:label="All Students"
+        tools:layout="@layout/fragment_home_student">
+        <action
+            android:id="@+id/action_homeStudentFragment_to_createStudentFragment"
+            app:destination="@id/createStudentFragment" />
+        <action
+            android:id="@+id/action_homeStudentFragment_to_editStudentFragment"
+            app:destination="@id/editStudentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createStudentFragment"
+        android:name="com.example.aidlclient.fragment.CreateStudentFragment"
+        android:label="Create Student"
+        tools:layout="@layout/fragment_create_student" />
+    <fragment
+        android:id="@+id/editStudentFragment"
+        android:name="com.example.aidlclient.fragment.EditStudentFragment"
+        android:label="Edit Student" />
+</navigation>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Day4DialogViewPaperSettingScren</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Language">
+        <item>English (US)</item>
+        <item>English (UK)</item>
+        <item>French (France)</item>
+        <item>Spanish (Spain)</item>
+        <item>Italian</item>
+    </string-array>
+    <string name="brightnese_title">Brightness</string>
+    <string name="auto_adjust_brightness_title">Auto adjust brightness</string>
+    <string name="auto_adjust_brightness_sumary">Adjust the screen brightness automatically based on the light conditions.</string>
+    <string name="blue_light_filter_title">Blue light filter</string>
+    <string name="blue_light_filter_sumary">Reduce eye strain limiting amount of blue light emited by the screen.</string>
+    <string name="screen_mode_title">Screen mode</string>
+    <string name="screen_zoom_and_font">Screen zoom and font</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="send_feedback_summary">Report technical issues or suggest new features.</string>
+    <string name="smallest_width_title">Smallest width</string>
+    <string name="dark_theme_title">Dark theme</string>
+    <string name="language_title">Language</string>
+</resources>

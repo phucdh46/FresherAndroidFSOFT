@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.contentproviderserverday10.fragment.HomeOrderFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_updateOrderFragment"
+            app:destination="@id/updateOrderFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addOrderFragment"
+            app:destination="@id/addOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateOrderFragment"
+        android:name="com.example.contentproviderserverday10.fragment.UpdateOrderFragment"
+        android:label="@string/title_update"
+        tools:layout="@layout/fragment_update_order" />
+    <fragment
+        android:id="@+id/addOrderFragment"
+        android:name="com.example.contentproviderserverday10.fragment.AddOrderFragment"
+        android:label="@string/title_add" />
+</navigation>

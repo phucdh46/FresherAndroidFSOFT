@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SeekBarPreference
+        android:defaultValue="1"
+        android:key="brightness"
+        android:max="100"
+        android:title="@string/brightnese_title"
+        app:showSeekBarValue="true" />
+    <SwitchPreferenceCompat
+        android:key="auto_adjust_brightness"
+        android:summary="@string/auto_adjust_brightness_sumary"
+        android:title="@string/auto_adjust_brightness_title" />
+    <SwitchPreferenceCompat
+        android:key="blue_light_filter"
+        android:summary="@string/blue_light_filter_sumary"
+        android:title="@string/blue_light_filter_title" />
+    <ListPreference
+        android:entries="@array/ScreenMode"
+        android:entryValues="@array/ScreenMode"
+        android:key="screen_mode"
+        android:title="@string/screen_mode_title"
+        app:useSimpleSummaryProvider="true" />
+    <MultiSelectListPreference
+        android:entries="@array/screen_zoom_and_font"
+        android:entryValues="@array/screen_zoom_and_font"
+        android:key="screen_zoom_and_font"
+        android:title="@string/screen_zoom_and_font"
+        app:useSimpleSummaryProvider="true" />
+
+    <Preference
+        android:key="feedback"
+        android:summary="@string/send_feedback_summary"
+        android:title="@string/send_feedback" />
+    <EditTextPreference
+        android:defaultValue="420"
+        android:key="EditText"
+        android:title="@string/smallest_width_title"
+        app:useSimpleSummaryProvider="true" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check"
+        android:summary="Off/On"
+        android:title="@string/dark_theme_title" />
+    <DropDownPreference
+        android:entries="@array/Language"
+        android:entryValues="@array/Language"
+        android:key="dropdown"
+        android:title="@string/language_title"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

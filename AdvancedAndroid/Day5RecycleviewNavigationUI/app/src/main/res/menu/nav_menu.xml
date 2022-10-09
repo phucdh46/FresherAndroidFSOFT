@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Message" />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_mark_unread_chat_alt_24"
+        android:title="Chat" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+    <item android:title="Comunication">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+</menu>

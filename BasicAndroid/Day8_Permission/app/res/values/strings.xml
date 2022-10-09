@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicAndroidDay8\'</string>
+    <string name="description">Custom permission in first application</string>
+    <string name="label">Custom permission</string>
+</resources>
